@@ -1,0 +1,19 @@
+.Pokedox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Pokedox-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .Pokedox-winner {
+    color: #4caf50;
+  }
+  
+  .Pokedox-loser {
+    color: #e91e63;
+  }
